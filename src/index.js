@@ -1,11 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 // import App from './App';
-// import Navbar from './Navbar'
-// import Variable from './Variable';
-// import StateProps from './StateProps';
-// import Map from './Map';
-import Lifecyle from './Lifecyle';
+// import Navbar from './reactjsdasar/Navbar'
+// import Variable from './reactjsdasar/Variable';
+// import StateProps from './reactjsdasar/StateProps';
+// import Map from './reactjsdasar/Map';
+// import Lifecyle from './reactjsdasar/Lifecyle';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Crud from './crud'
+import Navbarcomponent from './crud/Navbarcomponent'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -14,7 +18,9 @@ ReactDOM.render(
     <Variable/>
     <StateProps/> */}
     {/* <Map/> */}
-    <Lifecyle/>
+    {/* <Lifecyle/> */}
+    <Navbarcomponent/>
+    <Crud/>
   </React.StrictMode>,
   document.getElementById('root')
 );
